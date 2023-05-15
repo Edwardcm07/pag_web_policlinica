@@ -1,0 +1,86 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --negro:#000000;
+    --blanco:#ffffff;
+    --primario:#00177e;
+    --segundario:#0025cc;
+    --terceario:#001a8c;
+    --cuarteario:#000c40;
+}
+
+.contenedor__header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    box-shadow: 1px 12px 23px -7px rgba(0,0,0,0.51);
+    background: var(--primario);
+    color: var(--blanco);
+    
+}
+
+.item__header-bienvenida{
+    display: grid;
+    grid-template-columns: 500px repeat(5,1fr);
+    background-color: var(--negro);
+    font-size: 13px;
+}
+
+.item__bienvenida i{
+    margin-right: 10px;
+}
+
+.item__bienvenida{
+    text-align: center;
+    justify-content: center;
+    margin: 5PX;
+}
+
+
+.div__ul{
+    display: grid;
+    grid-template-columns:repeat(5,1fr); 
+    justify-content: center;
+    text-align: center;
+    grid-gap: 20px;
+    list-style-type: none; 
+}
+
+
+.item__nav-li {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;  
+    text-shadow: 5px 2px 17px rgba(0,0,0,1);
+    transform: 1.2;
+}
+
+.item__nav-li:hover{
+    background:linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2));
+   }
+
+.item__nav-li:hover {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;  
+
+}
+
+.item__nav-li a{
+    text-decoration: none;
+    color: var(--blanco);
+    transition: 1.2s;
+}
+
+.item__nav-li i{
+    margin-right: 10px;
+}
+
+.item__nav-li-img img{
+ margin-top: 3px;
+ width: 40px;
+ height: 40px; 
+ filter: drop-shadow(4px 2px 4px #000);
+}
