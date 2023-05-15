@@ -11,14 +11,17 @@
     --cuarteario:#000c40;
 }
 
+/* header */
+
 .contenedor__header{
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 1px 12px 23px -7px rgba(0,0,0,0.51);
     background: var(--primario);
     color: var(--blanco);
-    
+    position: fixed;
 }
 
 .item__header-bienvenida{
@@ -83,4 +86,18 @@
  width: 40px;
  height: 40px; 
  filter: drop-shadow(4px 2px 4px #000);
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.imagen__inicio{
+    padding-top: 90px;
 }
