@@ -60,21 +60,12 @@
     transform: 1.2;
 }
 
-.item__nav-li:hover{
-    background:linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2));
-   }
 
-.item__nav-li:hover {
-    text-align: center;
-    padding: 10px;
-    margin: 5px;  
-
-}
 
 .item__nav-li a{
     text-decoration: none;
     color: var(--blanco);
-    transition: 1.2s;
+    transition: 1.1s;
 }
 
 .item__nav-li i{
@@ -87,12 +78,27 @@
  height: 40px; 
  filter: drop-shadow(4px 2px 4px #000);
 }
+.item__nav-li:hover{
+    background:linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2));
+    text-align: center;
+    padding: 10px;
+    margin: 5px;  
+    color: #eee;
+   }
+
+.item__nav-li a:hover{
+      color: #9f9;
+}
+.item__nav-li i:hover{
+    color: #9f9;
+}
 
 /* main */
 
 h1, h2, h3{
     text-align: center;
     font-size: 30px;
+    font-weight: 300;
 }
 
 p{
@@ -116,22 +122,78 @@ p{
     background: #ddd;
     margin: 20px;
     border-radius: 20px;
-    filter: drop-shadow(4px 2px 4px #888);
+
 }
 
 .item__servicios-imagen {
-    align-content: center; 
     text-align: center;
   
 }
 
 .item__servicios-imagen i{
     font-size: 100px;
-    color: var(--primario); 
+    color: #aaa;
     transition: 1.2s;   
 }
 
 .item__servicios-imagen i:hover{
     font-size: 125px;
-    color: var(--cuarteario);    
+    color: var(--primario);     
+}
+
+/* parrafo 2 */
+
+.contenedor__eps-prepagadas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 600px;
+    margin:auto;
+   border-top: solid var(--segundario);
+}
+.item__eps-prepagadas:first-child{
+    grid-column: 1/ span 2;
+    text-align: center;
+}
+.item__eps-prepagadas{
+margin: auto;
+}
+.contenedor__empresas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 700px;
+    margin:auto;
+   border-top: solid var(--segundario);
+   grid-gap: 10px;
+}
+
+.item__empresas:first-child{
+    grid-column: 1/ span 3;
+    text-align: center;
+}
+.item__empresas{
+margin: auto;
+}
+/* footer */
+
+.contenedor__footer{
+    display: grid;
+    grid-template-columns: 1fr 30px 30px;
+    grid-template-rows: 80px;
+    background: var(--primario);
+    color: var(--blanco);
+    grid-gap: 20px;
+}
+
+.item__footer p{
+    text-align: left;
+    margin-top: 30px;
+    padding-left : 20px;
+    font-size: 15px;
+}
+.item__footer i{
+    text-align: left;
+    font-size: 30px;
+    margin: 20px -50px;
 }
