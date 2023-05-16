@@ -20,7 +20,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 1px 12px 23px -7px rgba(0,0,0,0.51);
-    background: var(--quinto);
+    background: var(--primario);
     color: #eee;
     position: fixed;
 }
@@ -100,6 +100,7 @@ h1, h2, h3{
     text-align: center;
     font-size: 30px;
     font-weight: 300;
+    margin-top: 50px;
 }
 
 p{
@@ -139,7 +140,7 @@ p{
 
 .item__servicios-imagen i:hover{
     font-size: 125px;
-    color: var(--quinto);     
+    color: var(--primario);     
 }
 
 /* parrafo 2 */
@@ -176,13 +177,19 @@ margin: auto;
 .item__empresas{
 margin: auto;
 }
+
+.banner{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 /* footer */
 
 .contenedor__footer{
     display: grid;
     grid-template-columns: 1fr 30px 30px;
     grid-template-rows: 80px;
-    background: var(--quinto);
+    background: var(--primario);
     color: var(--blanco);
     grid-gap: 20px;
 }
