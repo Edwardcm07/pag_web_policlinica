@@ -103,3 +103,35 @@ p{
 .imagen__inicio{
     padding-top: 90px;
 }
+
+.contenedor__servicios{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+}
+
+.item__servicios{
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    background: #ddd;
+    margin: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(4px 2px 4px #888);
+}
+
+.item__servicios-imagen {
+    align-content: center; 
+    text-align: center;
+  
+}
+
+.item__servicios-imagen i{
+    font-size: 100px;
+    color: var(--primario); 
+    transition: 1.2s;   
+}
+
+.item__servicios-imagen i:hover{
+    font-size: 125px;
+    color: var(--cuarteario);    
+}
