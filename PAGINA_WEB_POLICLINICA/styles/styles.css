@@ -20,7 +20,7 @@
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 1px 12px 23px -7px rgba(0,0,0,0.51);
     background: var(--primario);
-    color: var(--blanco);
+    color: #eee;
     position: fixed;
 }
 
@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: 1fr 300px repeat(5,1fr) 1fr;
     background-color: var(--negro);
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .item__bienvenida i{
@@ -87,6 +87,8 @@
  height: 40px; 
  filter: drop-shadow(4px 2px 4px #000);
 }
+
+/* main */
 
 h1, h2, h3{
     text-align: center;
