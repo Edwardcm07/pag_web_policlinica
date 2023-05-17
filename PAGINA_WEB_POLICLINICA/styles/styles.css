@@ -285,3 +285,15 @@ margin: auto;
     text-shadow: 3px 1px 5px rgba(0,0,0,0.3);
     background: #eee;
 }
+
+/* -------------------------------------------------------------
+
+nuestros servicios */
+
+.contenedor__nuestrosServicios{
+    display: grid;
+    grid-template-rows: 1fr 1fr/2;
+    width:50%;
+    margin: auto;
+    grid-row-gap: 20px;
+}
