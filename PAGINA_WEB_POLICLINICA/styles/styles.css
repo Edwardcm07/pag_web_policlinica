@@ -297,3 +297,92 @@ nuestros servicios */
     margin: auto;
     grid-row-gap: 20px;
 }
+
+/* 
+----------------------------------------------------------
+Pide una cita */
+
+.form{
+    display: grid;
+    width: 400px;
+    height: 450px;
+    grid-template-rows: repeat(4, 1fr);
+    margin: auto;
+    align-items: center;
+    background: var(--primario);
+    border-radius: 30px;
+    box-shadow: 3px 1px 10px rgba(0,0,0,1);
+}
+
+.item__form{
+    text-align: center;
+    
+}
+
+.item__form label{
+    font-size: 20px;
+    color: var(--blanco);
+}
+
+.item__form input{
+    width: 350px;
+    height: 40px;
+    border:none;
+    border-bottom: 3px solid var(--cuarteario);
+    background: transparent;
+    color: var(--blanco);
+    font-size: 30px;
+    text-align: center;
+    transition:1.2s ;
+}
+
+.item__form input:hover{
+    background: linear-gradient(to bottom, transparent,var(--terceario));
+  
+}
+
+
+.form input[type="submit"]{
+    background:var(--cuarteario);
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    color: var(--blanco);
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 1px 10px rgba(0,0,0,1);
+    border-radius: 5px;
+    transition: 1.2s;
+}
+
+.form input[type="submit"]:hover{
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.form input[placeholder]{
+     font-size: 25px;    
+}
+
+.parrafo__cita{
+    width: 80%;
+    margin: auto;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.item__form a{
+   color: var(--blanco);
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.item__form a:hover{
+    color: #9f9;
+ }
+
+
+
