@@ -383,6 +383,85 @@ Pide una cita */
 .item__form a:hover{
     color: #9f9;
  }
+/* 
+------------------------------------------------------------------------------------------
+Contactanos  */
 
+.form__contacto{
+    display: grid;
+    width: 700px;
+    height: 600px;
+    grid-template-rows: repeat(4, 1fr);
+    margin: auto;
+    align-items: center;
+    background: var(--primario);
+    border-radius: 30px;
+    box-shadow: 3px 1px 10px rgba(0,0,0,1);
+}
 
+.item__form-contacto{
+    text-align: center;  
+}
 
+.item__form-contacto input{
+    width: 350px;
+    height: 40px;
+    border:none;
+    border-bottom: 3px solid var(--cuarteario);
+    background: transparent;
+    color: var(--blanco);
+    font-size: 30px;
+    text-align: center;
+    transition:1.2s ;
+}
+
+.item__form-contacto input:hover{
+    background: linear-gradient(to bottom, transparent,var(--terceario));
+  
+}
+
+.form__contacto input[type="submit"]{
+    background:var(--cuarteario);
+    width: 60%;
+    height: 50px;
+    color: var(--blanco);
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 1px 10px rgba(0,0,0,1);
+    border-radius: 5px;
+    transition: 1.2s;
+} 
+
+.form__contacto input[type="submit"]:hover{
+    width: 70%;
+    height: 60px;
+    margin-left: 2.5%;
+    font-size: 25px;
+}
+
+.form__contacto input[placeholder]{
+    font-size: 25px;    
+}
+
+.item__form-contacto textarea{
+    width: 600px;
+    height: 300px;
+    border:none;
+    border-bottom: 3px solid var(--cuarteario);
+    background: transparent;
+    color: var(--blanco);
+    font-size: 20px;
+    transition:1.2s ;
+}
+
+.item__form-contacto textarea:hover{
+    background: linear-gradient(to bottom, transparent,var(--terceario));  
+}
+
+.parrafo__contacto{
+    width: 70%;
+    margin: auto;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 70px;
+}
